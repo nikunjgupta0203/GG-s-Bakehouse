@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import FloatingFairyLights from "./FloatingFairyLights";
+import heroImg from "../assets/images/gg_hero_bakery_1782197589925.jpg";
 
 interface HeroProps {
   onJoinWaitlistClick: () => void;
@@ -11,7 +12,7 @@ export default function Hero({ onJoinWaitlistClick }: HeroProps) {
       {/* Background Image with warm, dark gradient overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/gg_hero_bakery_1782197589925.jpg"
+          src={heroImg}
           alt="GG's Bakehouse Artisan Sourdough & Cookies Table"
           className="w-full h-full object-cover filter brightness-[0.45] sepia-[15%] contrast-[1.05]"
           referrerPolicy="no-referrer"

@@ -1,11 +1,14 @@
 import { ProductCategory, CustomerReview } from "./types";
+import festiveHamperImg from "./assets/images/gg_festive_hamper_1782197606201.jpg";
+import cookiesBrowniesImg from "./assets/images/gg_cookies_brownies_1782197621622.jpg";
+import brownieBitesImg from "./assets/images/gg_brownie_bites_1782208513761.jpg";
 
 export const PRODUCT_CATEGORIES: ProductCategory[] = [
   {
     id: "hampers",
     title: "Festive Hampers",
     description: "Curated gift collections housed in rustic jute baskets, tied with terracotta ribbons and dotted with twinkling details. Perfectly styled for celebration drop days.",
-    image: "/src/assets/images/gg_festive_hamper_1782197606201.jpg",
+    image: festiveHamperImg,
     highlight: "Best Seller for Holi & Lohri",
     items: ["Signature Thandai-Spiced Granola", "Scented Soy Wax Candle", "Indulgence Cookies", "Glass Jar of Spiced Cocoa"]
   },
@@ -13,7 +16,7 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     id: "cookies",
     title: "Cookies & Brownies",
     description: "Decadent, cookie-jar favorites made with premium organic flours, dark origin chocolates, and hand-sprinkled sea salt flakes. Crispy edges, ultra-gooey centers.",
-    image: "/src/assets/images/gg_cookies_brownies_1782197621622.jpg",
+    image: cookiesBrowniesImg,
     highlight: "Gooey & Small-Batch",
     items: ["Sea Salt Double Chocolate Chunk", "Brown Butter Pistachio Cookie", "Fudgy Terracotta Brownies", "Cardamom White Chocolate Blondie"]
   },
@@ -21,7 +24,7 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     id: "snacks",
     title: "Brownie Bites",
     description: "Fudgy, gooey, and dangerously good. Bite-sized squares of pure chocolate decadence made with origin dark chocolate, melted butter, and hand-sprinkled sea salt flakes.",
-    image: "/src/assets/images/gg_brownie_bites_1782208513761.jpg",
+    image: brownieBitesImg,
     highlight: "Fudgy, Gooey & Dangerously Good",
     items: ["Signature Fudge Bites", "Salted Caramel Brownie Cups", "Walnut Chunk Bites", "Sesame Jaggery Brownie Drops"]
   },
