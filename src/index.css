@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-cursive: "Dancing Script", cursive;
+  
+  --color-terracotta: #C06040;
+  --color-brand-cream: #FCF9F3;
+  --color-brand-brown: #4A2C2A;
+  --color-brand-gold: #D4AF37;
+}
+
+/* Enable smooth scrolling across anchors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fallback jute-texture pattern */
+.jute-texture {
+  background-image: radial-gradient(#4A2C2A 0.5px, transparent 0.5px);
+  background-size: 8px 8px;
+}
+
+/* Custom fade effects for page content transition states */
+.fade-in-on-load {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Sparkle slow spin */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Customized scrollbar design fitting the aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FCF9F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C06040;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A0522D;
+}

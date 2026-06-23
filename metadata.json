@@ -1,0 +1,6 @@
+{
+  "name": "GG's Bakehouse",
+  "description": "An artisan creator-led home bakery brand in India specializing in handcrafted baked goods, festive hampers, cookies, and premium snacks wrapped in warm, aesthetic, personality-driven charm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
